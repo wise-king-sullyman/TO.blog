@@ -1,3 +1,32 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.article-form {
+  font-size: 32px;
+}
+
+.article-form input, textarea {
+  width: 100%;
+}
+
+.article-form input, textarea {
+  padding: 5px 20px 10px 20px;
+  margin: 10px 0;
+  border: 2px solid #b3b3b3;
+  border-radius: 15px;
+
+  background-color: #1a1a1a;
+  color: #b3b3b3;
+  font-size: 32px;
+}
+
+.article-form textarea {
+  font-size: 20px;
+  resize: none;
+  height: 400px;
+}
+
+.article-form input[type=submit] {
+  background-color: rgb(167, 130, 82);
+  color: black;
+}
