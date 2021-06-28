@@ -34,3 +34,33 @@
 .article-form .form-item-group {
   padding: 20px 0;
 }
+
+.article-show .card {
+  padding: 5px 20px 10px 20px;
+  margin: 10px 0;
+  border: 2px solid #b3b3b3;
+  border-radius: 15px;
+
+  background-color: #1a1a1a;
+  color: #b3b3b3;
+}
+
+.article-show .card a, .article-show .card input[type=submit] {
+  color: black;
+  background-color: rgb(167, 130, 82);
+  padding: 5px;
+  margin: 0 5px;
+
+  border: none;
+  border-radius: 5px;
+
+  height: auto;
+
+  font-size: 16px;
+}
+
+.article-show .edit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
