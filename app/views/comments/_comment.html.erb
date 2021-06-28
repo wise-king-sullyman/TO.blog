@@ -1,15 +1,15 @@
-<p>
-  <strong>Commenter:</strong>
-  <%= comment.commenter %>
-</p>
+<div class="comment-card">
+  <p class="commenter">
+    <%= comment.commenter %>
+  </p>
 
-<p>
-  <strong>Comment:</strong>
-  <%= comment.body %>
-</p>
+  <p class="comment">
+    <%= comment.body %>
+  </p>
 
-<p>
-  <%= button_to 'Destory Comment', [comment.article, comment],
-              method: :delete,
-              data: { confirm: "Are you sure?" } %>
-</p>
+  <div class="destroy-container">
+    <%= button_to 'Destory Comment', [comment.article, comment],
+                method: :delete,
+                data: { confirm: "Are you sure?" } %>
+  </div>
+</div>

@@ -1,3 +1,50 @@
 // Place all the styles related to the Comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import "variables";
+
+.comment-card {
+  padding: 5px 20px 10px 20px;
+  margin: 10px 0;
+  border: 2px solid $content-color;
+  border-radius: 15px;
+
+  background-color: $content-background;
+  color: $content-color;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-card p {
+  margin: 5px 0;
+}
+
+.comment-card .commenter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.comment-card .comment {
+  font-size: 16px;
+}
+
+.comment-card .destroy-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-card input[type=submit] {
+  color: $accent-content-color;
+  background-color: $accent-background-color;
+  padding: 5px;
+  margin: 0 5px;
+
+  border: none;
+  border-radius: 5px;
+
+  height: auto;
+
+  font-size: 16px;
+ }
+ 
