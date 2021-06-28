@@ -1,3 +1,5 @@
+@import "variables";
+
 .index .article {
   display: flex;
   flex-direction: column;
@@ -5,17 +7,17 @@
 
   margin: 20px 0;
   padding: 10px;
-  background-color: #1a1a1a;
-  color: #b3b3b3;
+  background-color: $content-background;
+  color: $content-color;
 
   font-size: 32px;
 
-  border: 2px solid #b3b3b3;
+  border: 2px solid $content-color;
   border-radius: 15px;
 }
 
 .index a {
-  color: #b3b3b3;
+  color: $content-color;
 }
 
 .index .comment-count {

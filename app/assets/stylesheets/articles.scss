@@ -1,6 +1,9 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import "variables";
+
 .article-form {
   font-size: 32px;
 }
@@ -12,11 +15,11 @@
 .article-form input, textarea {
   padding: 5px 20px 10px 20px;
   margin: 10px 0;
-  border: 2px solid #b3b3b3;
+  border: 2px solid $content-color;
   border-radius: 15px;
 
-  background-color: #1a1a1a;
-  color: #b3b3b3;
+  background-color: $content-background;
+  color: $content-color;
   font-size: 32px;
 }
 
@@ -27,8 +30,8 @@
 }
 
 .article-form input[type=submit] {
-  background-color: rgb(167, 130, 82);
-  color: black;
+  background-color: $accent-background-color;
+  color: $accent-content-color;
 }
 
 .article-form .form-item-group {
@@ -38,16 +41,16 @@
 .article-show .card {
   padding: 5px 20px 10px 20px;
   margin: 10px 0;
-  border: 2px solid #b3b3b3;
+  border: 2px solid $content-color;
   border-radius: 15px;
 
-  background-color: #1a1a1a;
-  color: #b3b3b3;
+  background-color: $content-background;
+  color: $content-color;
 }
 
 .article-show .card a, .article-show .card input[type=submit] {
-  color: black;
-  background-color: rgb(167, 130, 82);
+  color: $accent-content-color;
+  background-color: $accent-background-color;
   padding: 5px;
   margin: 0 5px;
 

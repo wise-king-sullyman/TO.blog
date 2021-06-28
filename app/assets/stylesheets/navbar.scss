@@ -1,6 +1,8 @@
+@import "variables";
+
 nav {
   position: absolute;
-  background-color: rgb(167, 130, 82);
+  background-color: $accent-background-color;
   height: 100px;
   width: 100%;
 
@@ -12,5 +14,5 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: $accent-content-color;
 }
