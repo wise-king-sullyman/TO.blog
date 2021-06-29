@@ -18,3 +18,10 @@
   max-width: 60%;
   height: 100%;
 }
+
+.content:after {
+  content: "";
+  display: block;
+  height: 50px;
+  width: 100%;
+}
