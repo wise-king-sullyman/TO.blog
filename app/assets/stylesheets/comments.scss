@@ -47,4 +47,35 @@
 
   font-size: 16px;
  }
- 
+
+ .comment-form input {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: 2px solid $content-color;
+  border-radius: 10px;
+
+  background-color: $content-background;
+  color: $content-color;
+  font-size: 16px;
+ }
+
+ .comment-form .name, .comment-form .body {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0;
+  width: 250px;
+ }
+
+ .comment-form .body textarea{
+   width: 600px;
+   height: 60px;
+   resize: none;
+   font-size: 16px;
+ }
+
+ .comment-form input[type=submit] {
+  background-color: $accent-background-color;
+  color: $accent-content-color;
+  border: none;
+ }
