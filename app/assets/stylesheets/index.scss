@@ -36,4 +36,9 @@
 
 .index .head a {
   font-size: 24px;
+  padding: 0 5px;
+  
+  background-color: $accent-background-color;
+  color: $accent-content-color;
+  border-radius: 10px;
 }
